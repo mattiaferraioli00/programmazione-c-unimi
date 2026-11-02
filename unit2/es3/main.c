@@ -33,4 +33,6 @@ int main(void) {
     fine_ciclo:
 
     printf("Il risultato di %d ^ %d è: %d", a, b, p);
+
+    return 0;
 }

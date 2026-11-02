@@ -20,4 +20,6 @@ int main(void) {
     }
 
     printf("Il MCD è %d", y);
+
+    return 0;
 }
