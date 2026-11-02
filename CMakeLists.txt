@@ -5,7 +5,11 @@ project(programmazione_c_unimi C)
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+
 add_subdirectory(unit2/es1)
 add_subdirectory(unit2/es2)
 add_subdirectory(unit2/es3)
 add_subdirectory(unit2/es4)
+add_subdirectory(unit2/es5)
+add_subdirectory(unit2/es6)

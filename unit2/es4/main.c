@@ -18,21 +18,19 @@ int main(void) {
     int i = 1;
 
     ripeti:
+        if (i > B) {
+            goto fine_ciclo;
+        }
 
-    if (i > B) {
-        goto fine_ciclo;
-    }
+        T = T + A;
+        S = S + T;
 
-    T = T + A;
-    S = S + T;
-
-    i = i + 1;
+        i = i + 1;
 
     goto ripeti;
 
     fine_ciclo:
-
-    printf("La somma dei primi %d multipli di %d è: %d", B, A, S);
+        printf("La somma dei primi %d multipli di %d è: %d", B, A, S);
 
     return 0;
 }

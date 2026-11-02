@@ -20,19 +20,17 @@ int main(void) {
     p = 1;
 
     ripeti:
+        p = p * a;
+        i = i + 1;
 
-    p = p * a;
-    i = i + 1;
-
-    if (i >= b) {
-        goto fine_ciclo;;
-    }
+        if (i >= b) {
+            goto fine_ciclo;;
+        }
 
     goto ripeti;
 
     fine_ciclo:
-
-    printf("Il risultato di %d ^ %d è: %d", a, b, p);
+        printf("Il risultato di %d ^ %d è: %d", a, b, p);
 
     return 0;
 }
