@@ -6,3 +6,4 @@ set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 add_subdirectory(unit2/es1)
+add_subdirectory(unit2/es2)
