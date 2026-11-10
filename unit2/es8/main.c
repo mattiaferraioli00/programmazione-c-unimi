@@ -1,6 +1,5 @@
 #include <limits.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void) {
     /* Test 1: postfisso, restituisce il valore PRIMA dell'incremento */

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void) {
     printf("Lun\t10:40\tArchitetture\n");
